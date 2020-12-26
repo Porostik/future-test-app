@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter component should render human details from redux 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <HumanDetails>
+    <div
+      className="details"
+    >
+      <DetailsItem
+        title="Выбран пользователь"
+        value="Sue Corson"
+      >
+        <div
+          className="details-item"
+        >
+          <span
+            className="title"
+          >
+            Выбран пользователь
+          </span>
+          <p
+            className="value"
+          >
+            Sue Corson
+          </p>
+        </div>
+      </DetailsItem>
+      <Description
+        title="Описание:"
+        value="et lacus magna dolor..."
+      >
+        <div>
+          <span
+            className="title"
+          >
+            Описание:
+          </span>
+          <textarea
+            className="description"
+            disabled={true}
+            value="et lacus magna dolor..."
+          />
+        </div>
+      </Description>
+      <DetailsItem
+        key="streetAddress_0"
+        title="Адрес проживания:"
+        value="9792 Mattis Ct"
+      >
+        <div
+          className="details-item"
+        >
+          <span
+            className="title"
+          >
+            Адрес проживания:
+          </span>
+          <p
+            className="value"
+          >
+            9792 Mattis Ct
+          </p>
+        </div>
+      </DetailsItem>
+      <DetailsItem
+        key="city_1"
+        title="Город:"
+        value="Waukesha"
+      >
+        <div
+          className="details-item"
+        >
+          <span
+            className="title"
+          >
+            Город:
+          </span>
+          <p
+            className="value"
+          >
+            Waukesha
+          </p>
+        </div>
+      </DetailsItem>
+      <DetailsItem
+        key="state_2"
+        title="Провинция/штат:"
+        value="WI"
+      >
+        <div
+          className="details-item"
+        >
+          <span
+            className="title"
+          >
+            Провинция/штат:
+          </span>
+          <p
+            className="value"
+          >
+            WI
+          </p>
+        </div>
+      </DetailsItem>
+      <DetailsItem
+        key="zip_3"
+        title="Индекс:"
+        value="22178"
+      >
+        <div
+          className="details-item"
+        >
+          <span
+            className="title"
+          >
+            Индекс:
+          </span>
+          <p
+            className="value"
+          >
+            22178
+          </p>
+        </div>
+      </DetailsItem>
+    </div>
+  </HumanDetails>
+</Provider>
+`;

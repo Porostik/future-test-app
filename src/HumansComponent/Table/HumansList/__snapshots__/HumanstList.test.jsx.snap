@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Humans list component Humans list snapshot 1`] = `
+<div
+  className="human-list"
+>
+  <HumanItem
+    humanObj={
+      Object {
+        "email": "DWhalley@in.gov",
+        "firstName": "Sue",
+        "id": 101,
+        "lastName": "Corson",
+        "phone": "(612)211-6296",
+      }
+    }
+    key="0"
+    onClick={[Function]}
+  />
+  <HumanItem
+    humanObj={
+      Object {
+        "email": "DWhalley@in.gov",
+        "firstName": "Sue",
+        "id": 102,
+        "lastName": "Corson",
+        "phone": "(612)211-6296",
+      }
+    }
+    key="1"
+    onClick={[Function]}
+  />
+  <HumanItem
+    humanObj={
+      Object {
+        "email": "DWhalley@in.gov",
+        "firstName": "Sue",
+        "id": 103,
+        "lastName": "Corson",
+        "phone": "(612)211-6296",
+      }
+    }
+    key="2"
+    onClick={[Function]}
+  />
+</div>
+`;

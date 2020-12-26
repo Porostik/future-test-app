@@ -16,7 +16,8 @@ function Tabel() {
     dispatch(setOpenDetailsItem(item));
   };
 
-  // Отображает загрузочные элементы во время загрузки
+  // Отображает загрузочные элементы во время загрузки.
+  // Если загрузка выполнена, отображает список людей
   return isLoading ? (
     <LoadingPlaceholder loadingItemsCount={loadingItemsCount} />
   ) : (

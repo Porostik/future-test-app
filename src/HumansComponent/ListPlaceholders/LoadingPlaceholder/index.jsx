@@ -4,7 +4,7 @@ import LoadingItem from './LoadingItem';
 // Компонент отображающий загрузочные элементы
 function LoadingPlaceholder({ loadingItemsCount }) {
   return (
-    <div>
+    <div className="loading-placeholder">
       {Array(loadingItemsCount)
         .fill(0)
         .map((_, index) => (

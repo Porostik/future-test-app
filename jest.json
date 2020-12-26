@@ -10,5 +10,6 @@
   "moduleNameMapper": {
     "\\.(css|scss)$": "identity-obj-proxy"
   },
+  "snapshotSerializers": ["enzyme-to-json/serializer"],
   "modulePaths": ["<rootDir>/src"]
 }

@@ -79,7 +79,7 @@ export const createDetailsObj = (obj, defaultProps) => {
 // valuesCount - максимальное колличество страниц отображаемых за раз
 // pageStep - "шаг" смены страницы
 // maxValue - максимальная страница
-export const getPaginationValues = (currentPage, valuesCount, pageStep, maxValue) => {
+export const getPaginationValues = (currentPage, maxValuesCount, pageStep, maxValue) => {
   // Определение первой отображаемой страницы
   let startedValue = currentPage - pageStep;
 
@@ -88,15 +88,15 @@ export const getPaginationValues = (currentPage, valuesCount, pageStep, maxValue
   if (currentPage <= pageStep) {
     startedValue = 1;
   } else if (currentPage + pageStep >= maxValue) {
-    startedValue = maxValue - valuesCount + 1;
+    startedValue = maxValue - maxValuesCount + 1;
   }
 
   // Колличество отображаемых элементов меняется,
   // если число страниц меньше, чем максимальное колличество
   // страниц отображаемое за раз
-  valuesCount = maxValue < valuesCount ? maxValue : valuesCount;
+  maxValuesCount = maxValue < maxValuesCount ? maxValue : maxValuesCount;
 
-  return Array(valuesCount)
+  return Array(maxValuesCount)
     .fill(0)
     .map((_, index) => startedValue + index);
 };
