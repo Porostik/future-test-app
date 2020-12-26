@@ -1,0 +1,22 @@
+.human-item {
+  display: grid;
+  grid-template-columns: 0.2fr 0.5fr 0.5fr 1fr 0.7fr;
+  column-gap: 10px;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: #5d5843;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #fff;
+  }
+}
+
+.item-block {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #efdb9d;
+}

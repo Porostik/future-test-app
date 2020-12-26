@@ -1,0 +1,16 @@
+.error {
+  width: 500px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 250px auto;
+  text-align: center;
+
+  .error-message {
+    font-family: 'Relaway', sans-serif;
+    color: #5d5843;
+    font-size: 30px;
+    font-weight: 800;
+  }
+}

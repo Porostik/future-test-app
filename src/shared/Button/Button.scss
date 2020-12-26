@@ -1,0 +1,16 @@
+.button {
+  background-color: #efdb9d;
+  color: #5d5843;
+  padding: 10px 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 0px 5px #efdb9d;
+  }
+}

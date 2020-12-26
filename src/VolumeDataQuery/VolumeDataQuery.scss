@@ -1,0 +1,23 @@
+.data-volume-wrapper {
+  width: 30%;
+  height: 80px;
+  margin: 200px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  flex-direction: column;
+
+  .volume-text {
+    color: #5d5843;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+  }
+
+  .volume-buttons-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

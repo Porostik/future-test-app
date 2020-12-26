@@ -1,0 +1,42 @@
+.details {
+  grid-column: 2;
+  height: 400px;
+  padding: 20px;
+  align-self: start;
+  background-color: #efdb9d;
+  border-radius: 10px;
+  color: #5d5843;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  .title,
+  .value {
+    background-color: #b6be82;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .value {
+    font-weight: 800;
+  }
+}
+
+.description {
+  width: 100%;
+  height: 140px;
+  resize: none;
+  padding: 5px 5px 10px 5px;
+  border: none;
+  background-color: #b6be82;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.details-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
